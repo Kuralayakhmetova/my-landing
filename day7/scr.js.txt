@@ -1,0 +1,53 @@
+/* function cube(a) {
+  return a ** 3;
+}
+
+console.log(cube(5) * 10);
+
+function cube2(a) {
+  console.log(a ** 3);
+}
+cube2(10);
+ */
+
+/* function max(a, b) {
+  if (a > b) {
+    return a;
+  } else {
+    return b;
+  }
+}
+console.log(max(5, 1));
+ */
+
+/* const sayHello = () => {
+  console.log("Hello");
+};
+sayHello(); */
+/* const sayHello = (name) => console.log("Hello " + name);
+sayHello("Aliya"); */
+
+/* function isPositive(a) {
+  if (a > 0) {
+    return a + " is positive";
+  } else {
+    return a + " is negative";
+  }
+}
+const isPos = (b) => b > 0;
+console.log(isPositive(-5));
+console.log(isPos(-5)); */
+/* if (a > 0) {
+  const polF = (a) => console.log("Hello " + a);
+} else {
+  return 0;
+}
+polF(5);
+ */
+
+/* function addNV(name, age) {
+  return `Привет ${name}, тебе ${age} лет`;
+}
+const addNV2 = (name, age) => `Привет ${name}, тебе ${age} лет`;
+console.log(addNV("Kuralay", 33));
+console.log(addNV2("Kuralay", 23)); */

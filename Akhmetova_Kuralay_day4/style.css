@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: aqua;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.conteiner img {
+  width: 80%;
+}
+.conteiner {
+  /*3.1.Добавьте отступы, рамку и закруглённые углы.*/
+  border: 5px solid rgb(15, 0, 128);
+  /*3.2.Установите размеры, шрифты и отступы с использованием единиц em 
+(например, padding: 2em; font-size: 1em;)*/
+  padding: 2em;
+  font-size: 1em;
+  margin: 5em;
+  border-radius: 15px;
+  margin: 1em;
+}
+.products {
+  width: 100%;
+  display: grid;
+  /*grid-template-columns: 1fr;
+  grid-template-rows: repeat(9);*/
+}
+
+/*4 Проверьте адаптивность:
+Проверьте, как сетка перестраивается при изменении ширины окна 
+— карточки должны красиво выстраиваться в 1, 2 или 4 столбца в зависимости от размера экрана.*/
+/*2.    Используйте для расположения карточек:
+- На больших экранах (ширина ≥ 1024px) – 4 карточки в ряд. */
+@media (min-width: 1024px) {
+  .products {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3);
+  }
+}
+/* На планшетах (768px–1023px) – 2 карточки в ряд. */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5);
+  }
+}
+/* На телефонах (<768px) – 1 карточка в ряд.*/
+@media (max-width: 767px) {
+  .products {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9);
+  }
+}

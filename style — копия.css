@@ -1,0 +1,41 @@
+h1 {
+  font-size: 24px;
+  font-family: "times new roman", times, serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.mainp {
+  /*color: rgb(0, 255, 55);*/
+  text-align: justify;
+}
+
+#heading1 {
+  color: brown;
+}
+
+#heading2 {
+  color: aqua;
+}
+.kuralay {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+img {
+  width: 400px;
+  height: 200px;
+}
+img:hover {
+  opacity: 0.5;
+}
+p:hover {
+  background-color: brown;
+}
+#div1 {
+  border: 5px solid rgb(15, 0, 128);
+  padding: 20px;
+  margin: 100px;
+  border-radius: 15px;
+}

@@ -1,0 +1,56 @@
+/*2.1.Заголовок (h1) должен быть блочным (block).*/
+h1 {
+  /*display: block;*/
+  text-align: center;
+  font-size: 50px;
+}
+/*2.2.Кнопка «Купить» сделайте строчно-блочным (inline-block).*/
+button {
+  /* display: inline-block;*/
+  padding: 10px 20px;
+  border: none;
+  background-color: aqua;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.conteiner img {
+  width: 80%;
+}
+.conteiner {
+  /*2.3.Изображение и текст в карточке разместите с помощью flex-контейнера.*/
+  /*display: flex;*/
+  /* flex-direction: column;
+  text-align: justify;*/
+  /*3.1.Добавьте отступы, рамку и закруглённые углы.*/
+  border: 5px solid rgb(15, 0, 128);
+  padding: 20px;
+  margin: 50px;
+  border-radius: 15px;
+  margin: 1em;
+}
+/*3.2.Настройте ширину карточек с помощью процентов.*/
+.products {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3);
+
+  /*3.3.Используйте display: flex; для контейнера .products, чтобы карточки выстроились в ряд.*/
+  /*display: flex;
+  flex-direction: row;*/
+}
+
+@media (max-width: 800px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5);
+  }
+}
+
+@media (max-width: 500px) {
+  .products {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9);
+  }
+}

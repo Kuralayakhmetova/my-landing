@@ -1,0 +1,17 @@
+p {
+  background-color: aqua; /*1.1. Измените фона на странице.*/
+  font-size: 20px;
+}
+.conteiner {
+  background-color: grey;
+  text-align: center;
+  width: 500px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.conteiner > img {
+  width: 200px;
+}

@@ -1,0 +1,55 @@
+/* let name = "kuralay";
+const C = "100";
+console.log(name); */
+
+/* let a = "10";
+let b = 4;
+let c = a == b;
+console.log(c);
+
+let city = prompt("what's your city?");
+console.log("Hello " + city + "!");
+console.log(city, "Hello", "!"); */
+
+/* let name = "Kuralay";
+let age = 20;
+let city = "Astana";
+console.log(name, age, city);
+alert("hello " + name + " " + age + " " + city);
+
+let a = 10;
+let b = 50;
+let c = a + b;
+console.log(c);
+
+let as = "10";
+let bs = 10;
+let cs = as === bs;
+console.log(cs);
+
+let r = "4";
+let s = Math.PI * r ** 2;
+console.log(s);
+
+let x = 4;
+let y = 0;
+let z = -4;
+let d = y ** 2 - 4 * x * z;
+console.log("Дискриминант равен: " + d); */
+/* 
+let x1 = 100;
+
+console.log(x1 > 0);
+console.log(x1 < 0);
+console.log(x1 == 0);
+
+let x2 = 11;
+
+console.log(x2 % 2 == 0);
+
+let x3 = 15;
+console.log(x3 % 3 == 0);
+console.log(x2 % 5 == 0);
+
+console.log(x3 % 3 == 0 && x2 % 5 == 0);
+console.log(x2 % 3 == 0 || x2 % 5 == 0); */

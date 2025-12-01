@@ -1,0 +1,49 @@
+body {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif; /*5.Измените шрифт на странице.*/
+  font-style: italic;
+  text-align: center;
+  background-color: aqua; /*1.1. Измените фона на странице.*/
+}
+
+/*8. Используйте класс(.) и id(#) для стилизации отдельных элементов.*/
+
+.mainp {
+  /*color: rgb(0, 255, 55);*/
+  text-align: justify;
+}
+/*1.2. Измените цвет текста.*/
+#heading1 {
+  color: brown;
+}
+.group {
+  text-align: justify;
+}
+
+.kuralay {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  /*3. Настройте границы элемента с разными стилями.*/
+  border-top-style: solid;
+  border-top-color: red;
+}
+/*7. Настройте ширину и высоту изображения.*/
+img {
+  width: 450px;
+  height: 250px;
+}
+/*6. Добавьте hover-эффект для изображения.*/
+img:hover {
+  opacity: 0.5;
+}
+p:hover {
+  background-color: rgb(191, 193, 175);
+}
+/*2. Добавьте внешние(margin) и внутренние(padding) отступы к контейнеру.*/
+#div1 {
+  border: 5px solid rgb(15, 0, 128);
+  padding: 20px;
+  margin: 100px;
+  border-radius: 15px; /*4. Сделайте углы блока закругленными*/
+}
