@@ -1,6 +1,6 @@
 import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
-import MainDashboard from "./components/MainDashboard";
+import MainDashboard from "./components/MainDashboard"; //from components
 
 function App() {
   return (
