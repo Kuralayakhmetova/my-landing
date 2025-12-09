@@ -1,0 +1,9 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e6e3e3;
+  gap: 20px;
+}
