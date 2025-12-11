@@ -22,10 +22,8 @@ function UserForm() {
 
   // Обработчик отправки формы
   const handleSubmit = (e) => {
-    e.preventDefault(); // Предотвращаем перезагрузку страницы
+    e.preventDefault();
     setSubmittedData({ name, email, birthDate, selectedGender, Country, city });
-    // Можно также сбросить поля формы, если нужно
-    // setName(''); setEmail(''); setDob(''); setGender('male'); setCity('');
   };
 
   return (
